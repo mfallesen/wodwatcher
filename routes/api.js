@@ -26,3 +26,5 @@ router.post("/api/newworkout", (req, res) => {
         res.json(err)
     });
 });
+
+module.exports = router;
